@@ -1,0 +1,56 @@
+/* Hero Section */
+.hero-section {
+    background: url("https://i.ibb.co/zmBZpBX/22394.jpg")
+      no-repeat center center/cover;
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+  
+  .highlight {
+    color: #ff0000;
+  }
+  
+  /* Cards */
+  .about-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .about-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Section Title */
+  .section-title {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  /* List */
+  .list-group-item {
+    font-size: 1.1rem;
+  }
+  
+  /* Action Button */
+  .btn-danger {
+    background-color: #ff0000;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-danger:hover {
+    background-color: #cc0000;
+  }
+  

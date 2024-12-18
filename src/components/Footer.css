@@ -1,0 +1,105 @@
+/* Footer global */
+.footer__section {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 0;
+  font-size: 14px;
+}
+
+/* Titre des sections */
+.footer__title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Texte des sections */
+.footer__desc {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+/* Liens */
+.footer__links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__links li {
+  margin-bottom: 10px;
+}
+
+.footer__links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer__links a:hover {
+  color: #ff0000;
+}
+
+/* Réseaux sociaux */
+.footer__social {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__social li {
+  list-style: none;
+}
+
+.footer__social a {
+  color: #ccc;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer__social a:hover {
+  color: #ff0000;
+}
+
+/* Newsletter */
+.newsletter__form {
+  display: flex;
+  gap: 10px;
+}
+
+.newsletter__input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.newsletter__button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter__button:hover {
+  background-color: #cc0000;
+}
+
+/* Footer Bottom */
+.footer__bottom {
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  color: #ccc;
+}
+
+.footer__copyright a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.footer__payment {
+  width: 150px;
+}
