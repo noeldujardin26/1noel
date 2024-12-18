@@ -1,0 +1,61 @@
+/* Général */
+.hero {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ajuste l'image pour qu'elle reste belle */
+  }
+  
+  /* Texte centré */
+  .card-title {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #f8f9fa;
+  }
+  
+  /* Bouton */
+  .btn-danger {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  
+  /* Media Queries pour la responsivité */
+  @media (max-width: 768px) {
+    .card-title {
+      font-size: 1.5rem; /* Réduit la taille du titre */
+    }
+  
+    .card-text {
+      font-size: 0.9rem; /* Réduit la taille du texte */
+    }
+  
+    .btn-danger {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-title {
+      font-size: 1.2rem; /* Encore plus petit pour les téléphones */
+    }
+  
+    .card-text {
+      display: block; /* Le texte est toujours visible */
+      font-size: 0.8rem;
+    }
+  
+    .btn-danger {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+    }
+  }
+  
